@@ -60,13 +60,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} You Have to Join Our Premium Helpful Channels..\n\n In Order to Get Desired File.“So, 𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b> Hey 👋 {first}{last} Here is Ur File☝️
-—————————————————————————
-Main Channel ✅: <a href='https://t.me/links_Wala_Bhaiji'>Links Wala Bhaiji</a>
-
-Desi MM§ Video's✅: <a href='https://t.me/+zURjyAI8jWBkZmM1'>Join Desi MMS Channel!</a>
-
-All Õnlyfân§✅: <a href='https://t.me/+wyjYJBVahow2NDc9'>Join Only Fans Channel!</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>» Main Channel @Links_Wala_Bhaiji </b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
