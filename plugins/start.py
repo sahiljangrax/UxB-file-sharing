@@ -126,11 +126,14 @@ async def start_command(client: Client, message: Message):
 
             SD = await message.reply_text(" Hey 👋 {first}{last} Here is Ur File☝️
 —————————————————————————
-Main Channel ✅: <a href='https://t.me/links_Wala_Bhaiji'>Links_Wala_Bhaiji</a>
+Main Channel ✅ :-
+https://t.me/Links_Wala_Bhaiji
 
-Desi MM§ Video's ✅: <a href='https://t.me/+zURjyAI8jWBkZmM1'>Join Desi MMS Channel!</a>
+Desi MM§ Video's✅ :- 
+https://t.me/+zURjyAI8jWBkZmM1
 
-All Õnlyfân§✅: <a href='https://t.me/+wyjYJBVahow2NDc9'>Join Only Fan$ Channel!</a>
+All Õnlyfân§✅ :-
+https://t.me/+wyjYJBVahow2NDc9
 
 Files/Videos Will Be Deleted After 10 minutes. So,Forward them to the Saved Message now!")
             await asyncio.sleep(600)
