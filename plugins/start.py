@@ -124,7 +124,15 @@ async def start_command(client: Client, message: Message):
                 except:
                     pass
 
-            SD = await message.reply_text("Files/Videos Will Be Deleted After 1o minutes. So,Forward them to the Saved Message now!")
+            SD = await message.reply_text(" Hey 👋 {first}{last} Here is Ur File☝️
+—————————————————————————
+Main Channel ✅: <a href='https://t.me/links_Wala_Bhaiji'>Links_Wala_Bhaiji</a>
+
+Desi MM§ Video's ✅: <a href='https://t.me/+zURjyAI8jWBkZmM1'>Join Desi MMS Channel!</a>
+
+All Õnlyfân§✅: <a href='https://t.me/+wyjYJBVahow2NDc9'>Join Only Fan$ Channel!</a>
+
+Files/Videos Will Be Deleted After 10 minutes. So,Forward them to the Saved Message now!")
             await asyncio.sleep(600)
 
             for snt_msg in snt_msgs:
