@@ -5,11 +5,11 @@
 </div>
 
 <p align="center">
-  <a href="https://t.me/ultroid_official">
-    <img src="https://img.shields.io/badge/Ultroid%20%F0%9D%95%8F%20Official-Channel-blue?style=for-the-badge&logo=telegram" alt="Ultroid Official Channel">
+  <a href="https://t.me/Lonely_movies">
+    <img src="https://img.shields.io/badge/Ultroid%20%F0%9D%95%8F%20Official-Channel-blue?style=for-the-badge&logo=telegram" alt="links_Wala_Bhaiji Channel">
   </a>
   <a href="https://t.me/ultroidofficial_chat">
-    <img src="https://img.shields.io/badge/Ultroid%20%F0%9D%95%8F%20Official-Group-blue?style=for-the-badge&logo=telegram" alt="Ultroid Official Group">
+    <img src="https://img.shields.io/badge/Ultroid%20%F0%9D%95%8F%20Official-Group-blue?style=for-the-badge&logo=telegram" alt="links_Wala_Bhaiji Group">
   </a>
 </p>
 
@@ -58,7 +58,7 @@ Click the button below to deploy the bot on Koyeb:
 ### Deploy on Your VPS
 
 ```bash
-git clone https://github.com/sahildesai07/UxB-file-sharing
+git clone https://github.com/sahiljangrax/UxB-file-sharing
 cd file-sharing-token-bot
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
