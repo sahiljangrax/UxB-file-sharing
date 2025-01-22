@@ -28,7 +28,7 @@ async def channel_post(client: Client, message: Message):
 
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://telegram.me/share/url?url={link}')]])
 
-    await reply_text.edit(f"<b>\n𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 @Links_Wala_Bhaiji \nHow To Watch/Download👇\n@LM_How_To_Watch_Movie \n📥𝙷𝚎𝚛𝚎 𝙸𝚜 𝚈𝚘𝚞𝚛 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝙻𝚒𝚗𝚔📥 <\b> /n{link}{link}", reply_markup=reply_markup, disable_web_page_preview = True)
+    await reply_text.edit(f"\n\n𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 @Links_Wala_Bhaiji \n\nHow To Watch/Download👇\n@LM_How_To_Watch_Movie \n\n📥𝙷𝚎𝚛𝚎 𝙸𝚜 𝚈𝚘𝚞𝚛 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝙻𝚒𝚗𝚔📥\n\n{link}\n{link}", reply_markup=reply_markup, disable_web_page_preview = True)
 
     if not DISABLE_CHANNEL_BUTTON:
         await post_message.edit_reply_markup(reply_markup)
